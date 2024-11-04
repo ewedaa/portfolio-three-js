@@ -2,9 +2,11 @@ import { PerspectiveCamera } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 import { Suspense } from 'react';
 import { useMediaQuery } from 'react-responsive';
+import Button from '../components/Button';
 import CanvasLoader from '../components/CanvasLoader';
 import Cube from '../components/Cube';
 import HackerRoom from '../components/HackerRoom';
+import HeroCamera from '../components/HeroCamera';
 import ReactLogo from '../components/ReactLogo';
 import Rings from '../components/Rings';
 import Target from '../components/Target';
@@ -30,11 +32,13 @@ function Hero() {
         <Canvas className="w-full h-full">
           <Suspense fallback={<CanvasLoader />}>
             <PerspectiveCamera makeDefault position={[0, 0, 20]} />
-            <HackerRoom
-              scale={sizes.deskScale}
-              position={sizes.deskPosition}
-              rotation={[0, -Math.PI, 0]}
-            />
+            <HeroCamera isMobile={isMobile}>
+              <HackerRoom
+                scale={sizes.deskScale}
+                position={sizes.deskPosition}
+                rotation={[0, -Math.PI, 0]}
+              />
+            </HeroCamera>
             <group>
               <Target position={sizes.targetPosition} />
               <ReactLogo position={sizes.reactLogoPosition} />
@@ -46,6 +50,12 @@ function Hero() {
           </Suspense>
         </Canvas>
       </div>
+
+      {/* <div className="absolute right-0 left-0 bottom-7 c-shape z-10 w-full">
+        <a href="#contact" className="w-fit">
+          <Button />
+        </a>
+      </div> */}
     </section>
   );
 }
