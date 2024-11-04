@@ -1,6 +1,7 @@
 import About from './ui/About';
 import Clients from './ui/Clients';
 import Contact from './ui/Contact';
+import Footer from './ui/Footer';
 import Hero from './ui/Hero';
 import NavBar from './ui/NavBar';
 import Projects from './ui/Projects';
@@ -14,7 +15,9 @@ function App() {
       <About />
       <Projects />
       <Clients />
+      
       <Contact />
+      <Footer />
     </main>
   );
 }

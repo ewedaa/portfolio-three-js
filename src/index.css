@@ -14,6 +14,10 @@ body {
 }
 
 @layer utilities {
+  &::-webkit-scrollbar {
+    width: 0 !important;
+  }
+
   .c-space {
     @apply sm:px-10 px-5;
   }
