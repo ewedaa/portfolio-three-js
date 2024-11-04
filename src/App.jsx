@@ -1,4 +1,5 @@
 import About from './ui/About';
+import Clients from './ui/Clients';
 import Hero from './ui/Hero';
 import NavBar from './ui/NavBar';
 import Projects from './ui/Projects';
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
+      <Clients />
     </main>
   );
 }
