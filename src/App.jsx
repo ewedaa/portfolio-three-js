@@ -1,6 +1,7 @@
 import About from './ui/About';
 import Hero from './ui/Hero';
 import NavBar from './ui/NavBar';
+import Projects from './ui/Projects';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <NavBar />
       <Hero />
       <About />
+      <Projects />
     </main>
   );
 }
