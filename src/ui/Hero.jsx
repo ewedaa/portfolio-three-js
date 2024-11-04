@@ -51,11 +51,15 @@ function Hero() {
         </Canvas>
       </div>
 
-      {/* <div className="absolute right-0 left-0 bottom-7 c-shape z-10 w-full">
+      <div className="absolute right-0 left-0 bottom-7 c-shape z-10 w-full">
         <a href="#contact" className="w-fit">
-          <Button />
+          <Button
+            name="Let's work together"
+            isBeam
+            containerClass="sm:w-fit w-full sm:min-w-96"
+          />
         </a>
-      </div> */}
+      </div>
     </section>
   );
 }
