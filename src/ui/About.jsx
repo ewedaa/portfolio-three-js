@@ -120,7 +120,7 @@ function About() {
                   src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'}
                   alt="copy"
                 />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">
+                <p className="xl:text-lg lg:text-2xl md:text-base font-medium text-gray_gradient text-white">
                   mostafaghorab4business@gmail.com
                 </p>
               </div>
