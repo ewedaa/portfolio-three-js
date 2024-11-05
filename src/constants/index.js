@@ -281,6 +281,27 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
   };
 };
 
+export const socialLinks= [
+  {
+    id: 1,
+    name: 'github',
+    image: '/assets/github.svg',
+    link: 'https://github.com/mostafaghorab11',
+  },
+  {
+    id: 2,
+    name: 'linkedin',
+    image: '/assets/linkedin.png',
+    link: 'https://www.linkedin.com/in/mostafaghor4b/',
+  },
+  {
+    id: 3,
+    name: 'twitter',
+    image: '/assets/twitter.svg',
+    link: 'https://x.com/ghor4b',
+  }
+]
+
 export const workExperiences = [
   {
     id: 1,
