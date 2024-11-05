@@ -38,6 +38,7 @@ function Contact() {
       });
       alert('Thank you. I will get back to you as soon as possible.');
     } catch (error) {
+      console.log(error);
       setIsLoading(false);
       alert('Something went wrong. Please try again.');
     }
