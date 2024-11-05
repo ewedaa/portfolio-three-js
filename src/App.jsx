@@ -1,6 +1,7 @@
 import About from './ui/About';
 import Clients from './ui/Clients';
 import Contact from './ui/Contact';
+import Experience from './ui/Experience';
 import Footer from './ui/Footer';
 import Hero from './ui/Hero';
 import NavBar from './ui/NavBar';
@@ -15,7 +16,7 @@ function App() {
       <About />
       <Projects />
       <Clients />
-      
+      <Experience />
       <Contact />
       <Footer />
     </main>
