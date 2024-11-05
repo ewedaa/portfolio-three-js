@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { navLinks } from '../constants';
 
 const NavItems = () => {
-  // navLinks.map(item => console.log(item.name))
   return (
     <ul className="nav-ul">
       {navLinks.map((item) => {

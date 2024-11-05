@@ -11,7 +11,7 @@ function Experience() {
   console.log(animationName);
 
   return (
-    <section className="c-space my-20">
+    <section id='experience' className="c-space my-20">
       <div className="w-full text-white-600">
         <h3 className="head-text">My work experience</h3>
 
