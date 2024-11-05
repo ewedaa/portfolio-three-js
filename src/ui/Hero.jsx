@@ -52,7 +52,7 @@ function Hero() {
       </div>
 
       <div className="absolute right-0 left-0 bottom-7 c-space z-10 w-full">
-        <a href="#about" className="w-fit">
+        <a href="#contact" className="w-fit">
           <Button
             name="Let's work together"
             isBeam

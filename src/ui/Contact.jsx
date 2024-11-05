@@ -11,11 +11,9 @@ function Contact() {
   });
   const handleChange = ({ target: { name, value } }) => {
     setForm({ ...form, [name]: value });
-    console.log(form);
   };
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(form);
     try {
       setIsLoading(true);
       const serviceId = 'service_iscu5vu';
@@ -39,9 +37,8 @@ function Contact() {
         message: '',
       });
       alert('Thank you. I will get back to you as soon as possible.');
-    } catch (error) {
+    } catch () {
       setIsLoading(false);
-      console.log(error);
       alert('Something went wrong. Please try again.');
     }
   };

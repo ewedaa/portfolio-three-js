@@ -8,8 +8,6 @@ import { workExperiences } from '../constants';
 function Experience() {
   const [animationName, setAnimationName] = useState();
 
-  console.log(animationName);
-
   return (
     <section id='experience' className="c-space my-20">
       <div className="w-full text-white-600">
