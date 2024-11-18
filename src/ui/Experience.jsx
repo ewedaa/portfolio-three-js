@@ -9,9 +9,14 @@ function Experience() {
   const [animationName, setAnimationName] = useState();
 
   return (
-    <section id='experience' className="c-space my-20">
+    <section id="experience" className="c-space my-20">
       <div className="w-full text-white-600">
-        <h3 className="head-text">My work experience</h3>
+        <div className='flex gap-4 items-center'>
+          <h3 className="head-text">My work experience</h3>
+          <p className="text-white-500 md:text-base text-sm">
+            It&apos;s imaginary career to show you the 3d animations
+          </p>
+        </div>
 
         <div className="work-container">
           <div className="work-canvas">

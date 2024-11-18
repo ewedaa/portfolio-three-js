@@ -1,5 +1,5 @@
 import About from './ui/About';
-import Clients from './ui/Clients';
+// import Clients from './ui/Clients';
 import Contact from './ui/Contact';
 import Experience from './ui/Experience';
 import Footer from './ui/Footer';
@@ -14,7 +14,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
-      <Clients />
+      {/* <Clients /> */}
       <Experience />
       <Contact />
       <Footer />
