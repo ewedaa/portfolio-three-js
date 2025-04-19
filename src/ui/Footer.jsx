@@ -1,4 +1,4 @@
-import { socialLinks } from '../constants';
+import { socialLinks } from "../constants";
 
 function Footer() {
   return (
@@ -16,9 +16,7 @@ function Footer() {
           </a>
         ))}
       </div>
-      <p className="text-white-500">
-        © 2025 Mostafa Ghorab. All rights reserved.
-      </p>
+      <p className="text-white-500">© 2025 DVM Ewida. All rights reserved.</p>
     </section>
   );
 }

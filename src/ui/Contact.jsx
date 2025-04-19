@@ -1,13 +1,13 @@
-import emailjs from '@emailjs/browser';
-import { useRef, useState } from 'react';
+import emailjs from "@emailjs/browser";
+import { useRef, useState } from "react";
 
 function Contact() {
   const formRef = useRef();
   const [isLoading, setIsLoading] = useState(false);
   const [form, setForm] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
   const handleChange = ({ target: { name, value } }) => {
     setForm({ ...form, [name]: value });
@@ -16,31 +16,31 @@ function Contact() {
     e.preventDefault();
     try {
       setIsLoading(true);
-      const serviceId = 'service_iscu5vu';
-      const templateId = 'template_rv0pleb';
+      const serviceId = "service_iscu5vu";
+      const templateId = "template_rv0pleb";
       await emailjs.send(
         serviceId,
         templateId,
         {
           from_name: form.name,
-          to_name: 'Mostafa',
+          to_name: "Mostafa",
           from_email: form.email,
-          to_email: 'mostafaghorab4business@gmail.com',
+          to_email: "ewedaa776@gamil.com",
           message: form.message,
         },
-        'MVM7GcqK9aI8zKVGp'
+        "MVM7GcqK9aI8zKVGp"
       );
       setIsLoading(false);
       setForm({
-        name: '',
-        email: '',
-        message: '',
+        name: "",
+        email: "",
+        message: "",
       });
-      alert('Thank you. I will get back to you as soon as possible.');
+      alert("Thank you. I will get back to you as soon as possible.");
     } catch (error) {
       console.log(error);
       setIsLoading(false);
-      alert('Something went wrong. Please try again.');
+      alert("Something went wrong. Please try again.");
     }
   };
   return (
@@ -105,7 +105,7 @@ function Contact() {
             </label>
 
             <button type="submit" className="field-btn" disabled={isLoading}>
-              {isLoading ? 'Sending...' : 'Send'}
+              {isLoading ? "Sending..." : "Send"}
               <img
                 src="/assets/arrow-up.png"
                 alt="arrow-up"

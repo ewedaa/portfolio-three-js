@@ -1,12 +1,12 @@
-import { useState } from 'react';
-import Globe from 'react-globe.gl';
+import { useState } from "react";
+import Globe from "react-globe.gl";
 
-import Button from '../components/Button';
+import Button from "../components/Button";
 
 function About() {
   const [hasCopied, setHasCopied] = useState(false);
   function handleCopy() {
-    navigator.clipboard.writeText('mostafaghorab4business@gmail.com');
+    navigator.clipboard.writeText("ewedaa776@gmail.com");
     setHasCopied(true);
     setTimeout(() => {
       setHasCopied(false);
@@ -65,7 +65,7 @@ function About() {
                     lat: 31.039443,
                     lng: 30.453393,
                     size: 20,
-                    color: 'white',
+                    color: "white",
                     text: "I'm here.",
                   },
                 ]}
@@ -117,11 +117,11 @@ function About() {
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img
-                  src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'}
+                  src={hasCopied ? "assets/tick.svg" : "assets/copy.svg"}
                   alt="copy"
                 />
                 <p className="xl:text-lg lg:text-2xl md:text-base font-medium text-gray_gradient text-white">
-                  mostafaghorab4business@gmail.com
+                  ewedaa776@gmail.com
                 </p>
               </div>
             </div>
