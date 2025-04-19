@@ -23,7 +23,7 @@ function Contact() {
         templateId,
         {
           from_name: form.name,
-          to_name: "Mostafa",
+          to_name: "Ewida",
           from_email: form.email,
           to_email: "ewedaa776@gamil.com",
           message: form.message,

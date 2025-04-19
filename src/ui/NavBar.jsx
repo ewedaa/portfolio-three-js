@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { navLinks } from '../constants';
+import { useState } from "react";
+import { navLinks } from "../constants";
 
 const NavItems = () => {
   return (
@@ -32,7 +32,7 @@ function NavBar() {
             href="/"
             className="text-neutral-400 font-bold text-xl hover:text-white transition-colors"
           >
-            Mostafa
+            DVM Ewida
           </a>
 
           <button
@@ -41,7 +41,7 @@ function NavBar() {
             onClick={toggleMenu}
           >
             <img
-              src={isOpen ? 'assets/close.svg' : 'assets/menu.svg'}
+              src={isOpen ? "assets/close.svg" : "assets/menu.svg"}
               alt="toggle"
               className="w-6 h-6"
             />
@@ -53,7 +53,7 @@ function NavBar() {
         </div>
       </div>
 
-      <nav className={`nav-sidebar ${isOpen ? 'max-h-screen' : 'max-h-0'} `}>
+      <nav className={`nav-sidebar ${isOpen ? "max-h-screen" : "max-h-0"} `}>
         <NavItems />
       </nav>
     </header>

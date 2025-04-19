@@ -1,16 +1,16 @@
-import { PerspectiveCamera } from '@react-three/drei';
-import { Canvas } from '@react-three/fiber';
-import { Suspense } from 'react';
-import { useMediaQuery } from 'react-responsive';
-import Button from '../components/Button';
-import CanvasLoader from '../components/CanvasLoader';
-import Cube from '../components/Cube';
-import HackerRoom from '../components/HackerRoom';
-import HeroCamera from '../components/HeroCamera';
-import ReactLogo from '../components/ReactLogo';
-import Rings from '../components/Rings';
-import Target from '../components/Target';
-import { calculateSizes } from '../constants';
+import { PerspectiveCamera } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
+import { Suspense } from "react";
+import { useMediaQuery } from "react-responsive";
+import Button from "../components/Button";
+import CanvasLoader from "../components/CanvasLoader";
+import Cube from "../components/Cube";
+import HackerRoom from "../components/HackerRoom";
+import HeroCamera from "../components/HeroCamera";
+import ReactLogo from "../components/ReactLogo";
+import Rings from "../components/Rings";
+import Target from "../components/Target";
+import { calculateSizes } from "../constants";
 
 function Hero() {
   const isSmall = useMediaQuery({ maxWidth: 480 });
@@ -22,7 +22,7 @@ function Hero() {
     <section id="hero" className=" min-h-screen w-full flex flex-col relative">
       <div className="w-full mx-auto flex flex-col h-5 sm:mt-36 mt-20 c-space gap-3">
         <p className="text-white sm:text-3xl text-2xl font-medium text-center font-generalsans">
-          Hi, I am Mostafa <span className="waving-hand">👋</span>
+          Hi, I am DVM Ewida <span className="waving-hand">👋</span>
         </p>
         <p className="hero_tag text-gray_gradient">Full Stack Developer</p>
       </div>
