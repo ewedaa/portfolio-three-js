@@ -23,7 +23,7 @@ function About() {
               className="object-contain w-full sm:h-[276px] h-fit"
             />
             <div>
-              <p className="grid-headtext">Hi, I am DVM EWida</p>
+              <p className="grid-headtext">Hi, I am DVM Ewida</p>
               <p className="grid-subtext">
                 With 2 years of experience in backend and frontend.
               </p>
