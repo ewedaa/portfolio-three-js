@@ -56,7 +56,7 @@ function Hero() {
       <div className="absolute right-0 left-0 bottom-7 c-space z-10 w-full">
         <a href="#contact" className="w-fit">
           <Button
-            name="Let's work together"
+            name="Let's boost your farm KPIS"
             isBeam
             containerClass="sm:w-fit w-full sm:min-w-96"
           />
