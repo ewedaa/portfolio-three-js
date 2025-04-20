@@ -24,7 +24,9 @@ function Hero() {
         <p className="text-white sm:text-3xl text-2xl font-medium text-center font-generalsans">
           Hi, I am DVM Ewida <span className="waving-hand">👋</span>
         </p>
-        <p className="hero_tag text-gray_gradient">Full Stack Developer</p>
+        <p className="hero_tag text-gray_gradient">
+          Uniform agri technical support
+        </p>
       </div>
 
       <div className="w-full h-full inset-0 absolute">
